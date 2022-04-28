@@ -1,4 +1,4 @@
-job('Aplicacion') {
+job('Aplicacion Docker Nueva') {
     description('Aplicación Node JS')
     scm {
         git('https://github.com/juanmazonflo/nodejsapp.git', 'master') { node ->
